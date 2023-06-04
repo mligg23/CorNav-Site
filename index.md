@@ -1,8 +1,12 @@
 ---
 layout: default
-title: MO-VLN: A Multi-Task Benchmark for Open-set Zero-Shot Vision-and-Language Navigation
-description: Xiwen Liang, Liang Ma, Shanshan Guo, Jianhua Han, Hang Xu, Shikui Ma, Xiaodan Liang
 ---
+
+
+
+# MO-VLN: A Multi-Task Benchmark for Open-set Zero-Shot Vision-and-Language Navigation
+
+### description: Xiwen Liang, Liang Ma, Shanshan Guo, Jianhua Han, Hang Xu, Shikui Ma, Xiaodan Liang
 
 ## Abstract
 
