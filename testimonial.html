@@ -119,7 +119,77 @@
     <!-- end header section -->
   </div>
 
+  
+  <h2 id="update">Update</h2>
+  
+  <summary>🚀🚀[8/17/2023]v0.2.0: More assets!2 new scenes,50 new walkers,954 new objects,1k+ new instructions</summary>
+  <p>We have released <a href="https://drive.google.com/drive/folders/1padFHXi9VrTfDR2_8UmxB8NyZf2NfiZB?usp=drive_link"><img src="https://img.shields.io/badge/version-0.2.0-blue" alt="version"></a> of the MO-VLN benchmark simulator.</p>
+  <ul>
+  <li>Support for <strong>grabbing and navigation tasks</strong>.</li>
+  <li>Added many different walker states, including <strong>50 unique walkers across gender, skin color, and age groups, with smooth walking or running motions</strong>.</li>
+  <li>Added <strong>walker control interface</strong>. This interface supports:
+  <ul>
+  <li>Selecting the walker type to generate</li>
+  <li>Specifying where walkers are generated</li>
+  <li>Setting whether they move freely</li>
+  <li>Controlling the speed of their movement</li>
+  </ul>
+  </li>
+  <li><strong>Added 1k+ instructions</strong> to our four tasks.</li>
+  <li>We modeled an <strong>additional 954 classes of models</strong> to construct the indoor scene.</li>
+  <li>Two <strong>new scenes have been added</strong>, bringing the total to five:
+  <ul>
+  <li>Café</li>
+  <li>Restaurant</li>
+  <li>Nursing Room</li>
+  <li><strong>Separate tables</strong> -- Multiple tables can provide a large and efficient grasping parallel training</li>
+  <li><strong>Home scene</strong> -- A home suite consisting of a living room, kitchen, dining room, and multiple bedrooms
+  <img src="./docs/home.png" alt="scene"></li>
+  </ul>
+  </li>
+  </ul>
 
+
+  <summary>[6/18/2023]v0.1.0: 3 scenes,2165 objects, real light, shadow characteristics, and support instruction tasks with four tasks</summary>
+  <p>We have released <a href="https://drive.google.com/drive/folders/1PijMeLZV6OUvB7HZIJph0bbsMfZWx9YJ?usp=drive_link"><img src="https://img.shields.io/badge/version-0.1.0-blue" alt="version"></a> of the MO-VLN benchmark simulator.</p>
+  <ul>
+  <li>Built on UE5.</li>
+  <li>3 scene types:
+  <ul>
+  <li>Café -- Modelled on a 1:1 ratio to a Café</li>
+  <li>Restaurant -- Modelled on a 1:1 ratio to a restaurant</li>
+  <li>Nursing Room -- Modelled on a 1:1 ratio to a Nursing Room</li>
+  </ul>
+  </li>
+  <li>We handcrafted <strong>2,165 classes of models</strong> at a 1:1 ratio to real-life scenarios to construct these three scenes. These three scenes were ultimately constructed from a total of <strong>4,230 models</strong>.</li>
+  <li>We selected <strong>129 representative classes</strong> from the models built and supported <strong>navigation testing</strong>. Among them, 54 classes are fixed within the environment, while 73 classes support customization by users.</li>
+  <li>With <strong>real light and shadow characteristics</strong></li>
+  <li>Support instruction tasks with <strong>four tasks</strong>:
+  <ul>
+  <li>goal-conditioned navigation given a specific object category (e.g., &quot;fork&quot;);</li>
+  <li>goal-conditioned navigation given simple instructions (e.g., &quot;Search for and move towards a tennis ball&quot;);</li>
+  <li>step-by-step instructions following;</li>
+  <li>finding abstract objects based on high-level instruction (e.g., &quot;I am thirsty&quot;).</li>
+  </ul>
+  </li>
+  </ul>
+
+
+<h2 id="Todo List">Update</h2>
+  <ul>
+    <li>&#9745;Added <strong>more walker states</strong>.</li>
+    <li>&#9745;Added <strong>walker control interface</strong>.</li>
+    <li>&#9744;Provide <strong>more classes of generative objects</strong>.</li>
+    <li>&#9744;<strong>Construct complex tasks involving combined navigation and grasping.</strong></li>
+    <li>&#9744;<strong>10+ scenes</strong> are under construction and will be updated successively in the future.</li>
+    <li>&#9744;Generate high-quality instruction-ground truth pairs for the newly constructed scenes.</li>
+    <li>&#9744;Continue to update the simulator's <strong>physics engine effects</strong> to achieve more <strong>realistic dexterous hand-grabbing effects</strong></li>
+    <li>&#9744;Adding <strong>more interactive properties to objects in the environment</strong>, such as a coffee machine that can be controlled to make coffee.</li>
+  </ul>
+
+  </body>
+
+  
 
 <div style="text-align: center">
     <h3 style="margin-top: 10px">Video</h3>
