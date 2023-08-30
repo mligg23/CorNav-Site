@@ -555,40 +555,44 @@
 <!--   <div style="text-align: center">
     <h3 style="margin-top: 10px">Video</h3>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/dJtuuctvw0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div> -->
-<div style="display: flex; justify-content: center;"> <div style="margin-right: 20px;"> <h3 style="margin-top: 10px">V 0.1.0</h3> <iframe width="560" height="315" src="https://www.youtube.com/embed/dJtuuctvw0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </div> <div> <h3 style="margin-top: 10px">V 0.2.0</h3> <iframe width="560" height="315" src="https://www.youtube.com/embed/RY1bh0w19ck?si=dBrMBZeF3NZ\_8Nxx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </div> </div>
-
+  </div> --><div style="display: flex; justify-content: center;">
+  <div style="display: flex; flex-direction: column; align-items: center; margin-right: 20px;">
+    <h3 style="margin-top: 10px">V 0.1.0</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dJtuuctvw0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <h3 style="margin-top: 10px">V 0.2.0</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RY1bh0w19ck?si=dBrMBZeF3NZ\_8Nxx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+</div>
 
 <div class="videos-container">
-
   <div class="videos">
-
     <div class="video">
-      <video width="540" height="303" controls> 
+      <video width="540" height="303" controls>
         <source src="videos/1.mp4" type="video/mp4">
       </video>
-      <p>Complex Tasks for Grasping and Navigation</p> 
+      <p>Complex Tasks for Grasping and Navigation</p>
     </div>
 
     <div class="video">
       <video width="540" height="303" controls>
-        <source src="videos/2.mp4" type="video/mp4">  
+        <source src="videos/2.mp4" type="video/mp4">
       </video>
       <p>Recorded Human Demonstration Tracks by VR</p>
     </div>
-
-  </div>
-  
+  </div> 
 </div>
 
 <style>
 .videos-container {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .videos {
-  display: flex;
+  display: flex; 
 }
 
 .video {
