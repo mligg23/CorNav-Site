@@ -1,2 +1,2 @@
-# MO-VLN-Site
-Official site for Paper "MO-VLN: A Multi-Task Benchmark for Open-set Zero-Shot Vision-and.Language Navigation"
+# CorNav-Site
+Official site for Paper "CorNav: Autonomous Agent with Self-Corrected Planning for Zero-Shot Vision-and-Language Navigation"
